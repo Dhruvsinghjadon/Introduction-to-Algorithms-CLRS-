@@ -1,0 +1,3 @@
+Comparison of Running Times
+
+For each function f(n)f(n) and time tt in the following table, determine the largest size nn of a problem that can be solved in time tt, assuming that the algorithm to solve the problem takes f (n)f(n) microseconds.
