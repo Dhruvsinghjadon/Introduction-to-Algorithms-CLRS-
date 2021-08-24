@@ -12,9 +12,25 @@ Argue the correctness of HEAP-INCREASE-KEY using the following loop invariant:
 • At the start of each iteration of the while loop of lines 4-6, the array A[1...heap- size[A]] satisfies the max-heap property, except that there may be one violation: A[i] may be larger than A[PARENT(i)].
 Exercises 6.5-6
 Each exchange operation on line 5 of HEAP-INCREASE-KEY typically requires three asignments. Show how to use the idea of the inner loop of INSERTION-SORT to reduce the three assignments down to just one assignment.
+Ans-HEAP-INCREASE-KEY(A, i, key):
+	if key < A[i]
+		error "New key is smaller than current key"
+	A[i] = key
+	while i > 1 and A[PARENT(i)] < key
+		A[i] = A[PARENT(i)]
+		i = PARENT(i)
+	A[i] = key
 Exercises 6.5-7
 Show how to implement a first-in, first-out queue with a priority queue. Show how to implement a stack with a priority queue. (Queues and stacks are defined in Section 10.1.)
 Exercises 6.5-8
 The operation HEAP-DELETE(A, i) deletes the item in node i from heap A. Give an implementation of HEAP-DELETE that runs in O(lg n) time for an n-element max-heap.
+Ans-HEAP-DELETE(A, i):
+	if A[i] < A[A.heap-size]
+		HEAP-INCREASE-KEY(A, i, A[A.heap-size])
+		A.heap-size -= 1
+	else
+		A[i] = A[A.heap-size]
+		A.heap-size -= 1
+		MAX-HEAPIFY(A,i)
 Exercises 6.5-9
 Give an O(n lg k)-time algorithm to merge k sorted lists into one sorted list, where n is the total number of elements in all the input lists. (Hint: Use a min-heap for k-way merging.)
