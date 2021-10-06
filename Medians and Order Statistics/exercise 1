@@ -1,0 +1,4 @@
+Exercises 9.1-1
+Show that the second smallest of n elements can be found with  comparisons in the worst case. (Hint: Also find the smallest element.)
+Exercises 9.1-2
+Show that image comparisons are necessary in the worst case to find both the maximum and minimum of n numbers. (Hint: Consider how many numbers are potentially either the maximum or minimum, and investigate how a comparison affects these counts.)
