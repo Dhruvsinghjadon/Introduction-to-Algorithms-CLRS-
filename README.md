@@ -3,7 +3,7 @@ Introduction to Algorithms is a book on computer programming by Thomas H. Cormen
 
 ![Clrs3](https://user-images.githubusercontent.com/75934644/126056821-e0282a64-b019-4f44-bdd9-16d3925ef70b.jpeg)
 
- My resources , for studying data structures and algorithm-
+ My resources, for studying data structures and algorithm-
 
 1)https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/
 2)http://web.stanford.edu/class/cs97si/
