@@ -7,7 +7,7 @@ Introduction to Algorithms is a book on computer programming by Thomas H. Cormen
 
 1)https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/
 2)http://web.stanford.edu/class/cs97si/
-3)Advanced algorithms(harward university)-https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf
+3)Advanced algorithms(Harvard University)-https://www.youtube.com/playlist?list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf
 <ul>
 I) Foundations
 <li>1 The Role of Algorithms in Computing</li>
