@@ -1,0 +1,4 @@
+Exercise 17.1-1
+If the set of stack operations included a MULTIPUSH operation, which pushes k items onto the stack, would the O(1) bound on the amortized cost of stack operations continue to hold?
+Ans-
+No.The time complexity of such a series of operations depends on the number of push operation. Since one MULTIPUSH needs Θ(k)time, performing n MULTIPUSH operations, each with k elements, would take Θ(kn)time, leading to amortized cost of Θ(k).
